@@ -1,10 +1,12 @@
 {
   "name": "Kalkulator Hebat",
   "short_name": "Kalkulator",
-  "start_url": "index.html",
+  "description": "Aplikasi Kalkulator Hebat berbasis PWA untuk perhitungan cepat dan mudah.",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#2196f3",
   "theme_color": "#2196f3",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "icon-192.png",
