@@ -14,11 +14,11 @@ href="manifest.json">
 content="#2196f3">
 <!_ _ Ikon untul browser dan fallback
 -->
-  <link rel="icon" type="image/png"
-size="192×192" href="icon-192.png">
-  <link rel="icon" type="image/png"
-sizes="512×512" href="icon-512.png">
-</head>
+  <!-- Ikon untuk browser dan fallback -->
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
 <script>
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("service-worker.js");
