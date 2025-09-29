@@ -3,6 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                     <title>
+                       kalkulator Hebat
+                       </title>
+<!-- Hubungkan ke manifest.json -- >
+<link rel="manifest"
+href="manifest.json">
+<!_ _ Warna tema untuk PWA __>
+<meta name="theme-color"
+content="#2196f3">
+<!_ _ Ikon untul browser dan fallback
+-->
+  <link rel="icon" type="image/png"
+size="192×192" href="icon-192.png">
+  <link rel="icon" type="image/png"
+sizes="512×512" href="icon-512.png">
+</head>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+  }
+</script>
   <title>Kalkulator Hebat</title>
   <style>
     body {
